@@ -14,6 +14,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		978619203E1A0C27C1BF4495 /* libPods-BaseReactNative-BaseReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6CB05A19C596C8B798D0D /* libPods-BaseReactNative-BaseReactNativeTests.a */; };
 		A960EE0DEA9D5D15C49E978E /* libPods-BaseReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8F5FC868405CB4521393D6 /* libPods-BaseReactNative.a */; };
+		FBE806B426D7A6840068D5B2 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBE806B326D7A6840068D5B2 /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DE324C1443E5AFD23F7D6FF8 /* Pods-BaseReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseReactNative.debug.xcconfig"; path = "Target Support Files/Pods-BaseReactNative/Pods-BaseReactNative.debug.xcconfig"; sourceTree = "<group>"; };
 		E9A39712471BEFAA8C4F8C9F /* Pods-BaseReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseReactNative.release.xcconfig"; path = "Target Support Files/Pods-BaseReactNative/Pods-BaseReactNative.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FBE806B326D7A6840068D5B2 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FBE806B326D7A6840068D5B2 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* BaseReactNative */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* BaseReactNativeTests */,
@@ -145,7 +148,6 @@
 				3AF867E5E26987FDF7E310C8 /* Pods-BaseReactNative-BaseReactNativeTests.debug.xcconfig */,
 				CAD7288AF60B89E24F469C21 /* Pods-BaseReactNative-BaseReactNativeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FBE806B426D7A6840068D5B2 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,7 +564,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -626,7 +629,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
