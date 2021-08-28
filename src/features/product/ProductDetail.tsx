@@ -57,7 +57,7 @@ const ProductDetail = () => {
             console.log("button_clicked");
           }}
         />
-        {/* <Image source={{uri: product.image}} style={styles.image} />
+        <Image source={{ uri: product.image }} style={styles.image} />
 
         <View style={styles.rightContainer}>
           <Text style={styles.category} numberOfLines={1}>
@@ -73,7 +73,7 @@ const ProductDetail = () => {
           <Text style={styles.price} numberOfLines={1}>
             {`${product.price}$`}
           </Text>
-        </View> */}
+        </View>
       </View>
     </ScrollView>
   );
