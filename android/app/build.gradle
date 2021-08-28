@@ -152,6 +152,12 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        release {
+          storeFile file('reactnativecicdkey.keystore')
+            storePassword 't0977942025'
+            keyAlias 'reactnativecicdkey'
+            keyPassword 't0977942025'
+        }
     }
     buildTypes {
         debug {
